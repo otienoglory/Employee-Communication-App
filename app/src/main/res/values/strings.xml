@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Borcelle Communication App</string>
+    <string name="title_activity_main_nav">MainNavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BORCELLE GLOBAL TECH</string>
+    <string name="nav_header_subtitle">borcelleglobaltech@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string-array name="Staffdirectory">
+        <item>Andrew Miller (President/CEO)</item>
+        <item>Mitsuha Miyamiza (Human Resource Manager)</item>
+        <item>Warren Smith (Account Executive)</item>
+        <item>Nicole Windsor(Account Executive)</item>
+        <item>Jasmine Naomi (Public Relations Officer)</item>
+        <item>Jason Robinson (Senior Software Engineer</item>
+        <item>Rachel Davis(Senior Software Engineer)</item>
+        <item>Robert Kelly(Senior Programmer)</item>
+        <item>Emily Iverson(Junior Programmer)</item>
+    </string-array>
+</resources>

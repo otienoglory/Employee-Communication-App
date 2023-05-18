@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn"
+    android:background="@drawable/dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logoo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025" />
+
+        <TextView
+            android:id="@+id/mtxtemployees"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:text="About Borcelle Global Tech"
+            android:textColor="#00BCD4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mtxtdetails"
+        android:layout_width="410dp"
+        android:layout_height="299dp"
+        android:layout_marginTop="4dp"
+        android:gravity="fill_vertical"
+        android:text="Borcelle Global Tech is an intergrated telecommunication provider in Kenya.It was previously a part of the Telstra Post and Telecommunication Corporation(TPTC) which was the sole provider of both postal aand telecommunication servies.The Company was established as a telecommunications operator in March 2004, after the split of (TPTC) into the Communication Commission of Kenya(CCK) and the Royal Corporation of Kenya.The company is 60 percent owned by Derscartes Investment Partners,with the remaining stake held by the Board Members of the Company.  "
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_goneMarginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="245dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/mtxtservices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Services"
+            android:textColor="#00BCD4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mtxtdetailservice"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:text="Borcelle Global Tech,with the help of over 1400 employees,operates and maintains the infrastructure over which Kenya's various internet service providers operate.Some of our mobile telecommunication services include;Mobile money transfer, e-wallet;which helps with payment of healthcare services, mobile loaning, e-learning and e-commerce. "
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

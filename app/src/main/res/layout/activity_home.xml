@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/lightblue"
+    android:layout_height="match_parent"
+    tools:context=".HomepageActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logoo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025" />
+
+        <TextView
+            android:id="@+id/mtxtemployees"
+            android:layout_width="143dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Employees Resources"
+            android:textColor="#00BCD4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="548dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+        android:id="@+id/btnAbout"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/background_btn_register"
+        android:text="About Our company"
+        android:textColor="#ffff"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.336" />
+
+        <Button
+            android:id="@+id/btnstaff"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_btn_register"
+            android:text="Staff Directory"
+            android:textColor="#ffff"
+
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.336" />
+
+
+        <Button
+            android:id="@+id/btntrain"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_btn_register"
+            android:text="Training Resources"
+            android:textColor="#ffff"
+
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.336" />
+
+        <Button
+            android:id="@+id/btnnews"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/background_btn_register"
+            android:text="News and Update"
+            android:textColor="#ffff"
+
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.336" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

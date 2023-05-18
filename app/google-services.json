@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327150400724",
+    "project_id": "employee-communication-a-a6078",
+    "storage_bucket": "employee-communication-a-a6078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327150400724:android:ece59e2ab96b83b17d7741",
+        "android_client_info": {
+          "package_name": "com.example.borcellecommunicationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327150400724-f7figvnoq654bsqrah5jdpgpl8n2b67s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKxRC5KdbJAnVphmKWeIMidsAx7v_UBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327150400724-f7figvnoq654bsqrah5jdpgpl8n2b67s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
